@@ -1,0 +1,25 @@
+{
+    "name": "nextreactsnippets",
+    "displayName": "nextreactsnip",
+    "description": "NextJS React snippets to help development faster",
+    "version": "0.0.1",
+    "publisher": "Celebrity Developer",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
