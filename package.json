@@ -1,11 +1,16 @@
 {
-    "name": "nextreactsnippets",
-    "displayName": "nextreactsnip",
+    "name": "nextreact",
+    "displayName": "nextreact",
     "description": "NextJS React snippets to help development faster",
     "version": "0.0.1",
-    "publisher": "Celebrity Developer",
+    "publisher": "CelebrityDeveloper",
+    "icon": "nextreact.png",
     "engines": {
         "vscode": "^1.64.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/celebritydeveloper/nextreactsnippets.git"
     },
     "categories": [
         "Snippets"

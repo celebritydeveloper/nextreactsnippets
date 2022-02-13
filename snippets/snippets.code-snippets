@@ -1,8 +1,76 @@
 {
     "Import React": {
-        "prefix": "imrs",
-        "body": "import React from `react`$1",
-        "description": "Inport React",
+        "prefix": "nr",
+        "body": "import React from 'react';$1",
+        "description": "Import React",
     },
+
+    "Import React, { useState }": {
+        "prefix": "nrus",
+        "body": "import React, { useState } from 'react';$1",
+        "description": "Import React and useState hook",
+    },
+
+    "Import React, { useState, useEffect }": {
+        "prefix": "nrusue",
+        "body": "import React, { useState, useEffect } from 'react';$1",
+        "description": "Import React, useState and useEffect hook",
+    },
+
+    "Import Next Image": {
+        "prefix": "ni",
+        "body": "import Image from 'next/image';$1",
+        "description": "Import NextJS Image element",
+    },
+
+    "Import Next Link": {
+        "prefix": "nl",
+        "body": "import Link from 'next/link';$1",
+        "description": "Import NextJS Link element",
+    },
+
+    "Import Functional Component": {
+        "prefix": "naf",
+        "body": [
+            "import React from 'react';",
+
+            
+            "function Name$1() {",
+            "return ();",
+            "}",
+            "export default Name$2;"
+        ],
+        "description": "Import functional component",
+    },
+
+    "Import Arrow Functional Component": {
+        "prefix": "naf",
+        "body": [
+            "import React from 'react';",
+
+
+            "const Name$1 = () => {",
+            "return ();",
+            "}",
+            "export default Name$2;"
+        ],
+        "description": "Import arrow functional component",
+    },
+
+    "Import Arrow Functional Component with Props": {
+        "prefix": "nafp",
+        "body": [
+            "import React from 'react';",
+
+
+            "const Name$1 = ({ props }) => {",
+            "return ();",
+            "}",
+            "export default Name$2;"
+        ],
+        "description": "Import arrow functional component with props",
+    },
+
+
     
 }
