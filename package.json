@@ -2,7 +2,7 @@
     "name": "nextreact",
     "displayName": "nextreact",
     "description": "NextJS React snippets to help development faster",
-    "version": "0.1.3",
+    "version": "0.1.1",
     "publisher": "CelebrityDeveloper",
     "icon": "nextreact.png",
     "engines": {
