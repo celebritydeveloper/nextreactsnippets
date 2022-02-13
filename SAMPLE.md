@@ -47,3 +47,33 @@ Fixed issue #.
 
 Added features X, Y, and Z.
 
+
+
+naf - Imports React Functional Component
+
+    import React from "react"
+
+    function Name () {
+        return ();
+    }
+    export default Name;
+
+
+naf - Imports React Arrow Functional Component
+
+    import React from "react"
+
+    const Name = () => {
+        return ();
+    }
+    export default Name;
+
+
+nafp - Imports React Arrow Functional Component with Props
+
+    import React from "react"
+    
+    const Name = ({ props }) => {
+        return ();
+    }
+    export default Name;

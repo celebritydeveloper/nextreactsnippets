@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.2]
 
+- Updated README.md file to include sample snippets
+
+## [1.0.2]
+
 - Added icon to the extension
 
 ## [1.0.1]

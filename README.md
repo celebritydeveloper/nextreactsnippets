@@ -11,27 +11,27 @@ Snippets for NextJS React.
 
 nr - Imports React
 
-`import React from "react";`
+    import React from "react";
 
 
 nrus - Imports React and useState
 
-`import React, { useState } from "react";`
+    import React, { useState } from "react";
 
 
 nrusue - Imports React, useState and useEffect
 
-`import React, { useState, useEffect } from "react";`
+    import React, { useState, useEffect } from "react";
 
 
 ni - Imports Next Image
 
-`import image from "next/image";`
+    import image from "next/image";
 
 
 nl - Imports Next Link
 
-`import Link from "next/link";`
+    import Link from "next/link";
 
 
 naf - Imports React Functional Component
